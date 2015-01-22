@@ -13,21 +13,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="150dp" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="REGISTER"
-        android:id="@+id/buttonLogin"
-        android:background="#46e5e5e5"
-        android:textColor="#ffffffff"
-        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="100dp" />
+        android:layout_centerHorizontal="true" />
+
 
     <EditText
         style="@style/TextFields"
@@ -35,7 +24,7 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/editEmail"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:text="E-Mail"/>
@@ -46,11 +35,12 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/editText"
+        android:id="@+id/editPass1"
+        android:layout_below="@+id/editEmail"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Password"/>
 
     <EditText
         style="@style/TextFields"
@@ -58,7 +48,32 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText3"
-        android:layout_below="@+id/editText2"
-        android:layout_centerHorizontal="true"/>
+        android:id="@+id/editPass2"
+        android:layout_below="@+id/editPass1"
+        android:layout_centerHorizontal="true"
+        android:text="Password"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/buttonReg"
+        android:background="#46e5e5e5"
+        android:textColor="#ffffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp" />
+
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:id="@+id/space"
+        android:layout_below="@+id/editPass2"
+        android:layout_above="@+id/buttonReg"
+        android:layout_centerHorizontal="true" />
+
+
 </RelativeLayout>

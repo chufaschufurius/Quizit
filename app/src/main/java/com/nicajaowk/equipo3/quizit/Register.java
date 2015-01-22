@@ -1,5 +1,6 @@
 package com.nicajaowk.equipo3.quizit;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
