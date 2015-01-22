@@ -30,6 +30,7 @@
         android:layout_marginTop="100dp" />
 
     <EditText
+        style="@style/TextFields"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
@@ -37,10 +38,10 @@
         android:id="@+id/editText"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="E-Mail" />
+        android:text="E-Mail"/>
 
     <EditText
+        style="@style/TextFields"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
@@ -49,14 +50,15 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="20dp"/>
 
     <EditText
+        style="@style/TextFields"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/editText3"
         android:layout_below="@+id/editText2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
