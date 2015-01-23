@@ -1,6 +1,10 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:background="@drawable/fondo_azul"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_azul"
+    android:id="@+id/inicio_layout"
     tools:context="com.nicajaowk.equipo3.quizit.Bigining">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -19,6 +23,7 @@
         android:background="@drawable/logo"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
+        android:layout_above="@+id/buttonGooglePlus"
         android:adjustViewBounds="false" />
 
     <Button
@@ -27,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:id="@+id/button4"
+        android:id="@+id/buttonLogin"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
