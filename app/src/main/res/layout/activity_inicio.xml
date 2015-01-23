@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo_azul"
     android:id="@+id/inicio_layout"
-    tools:context="com.nicajaowk.equipo3.quizit.Bigining">
+    tools:context="com.nicajaowk.equipo3.quizit.actividad_inicio">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -24,7 +24,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
         android:layout_above="@+id/buttonGooglePlus"
-        android:adjustViewBounds="false" />
+        android:adjustViewBounds="false"
+        android:padding="10dp" />
+
 
     <Button
         android:background="#46e5e5e5"
