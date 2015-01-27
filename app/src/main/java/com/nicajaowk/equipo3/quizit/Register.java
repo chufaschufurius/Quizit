@@ -24,8 +24,10 @@ public class Register extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        /*Parse.enableLocalDatastore(this);
 
-
+        Parse.initialize(this, "NCFX0CqHDFkXHidY44fbhBanCKzk0l4rbU7NW0BJ", "pHD2gqjxkgtEzYBCV3Aqflw8dEKX0StD5Hzbe4yR"
+*/
         email = (TextView) findViewById(R.id.editEmail);
         contrasena = (TextView) findViewById(R.id.editPass1);
         contrasena2 = (TextView) findViewById(R.id.editPass2);
@@ -41,6 +43,7 @@ public class Register extends ActionBarActivity {
                     toastCamposVacios.show();
                 else if(!contrasena.getText().equals(contrasena2.getText()))
                     toastContr.show();
+
 
             }
         });
