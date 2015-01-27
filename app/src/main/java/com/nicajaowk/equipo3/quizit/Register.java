@@ -41,6 +41,7 @@ public class Register extends ActionBarActivity {
                     toastCamposVacios.show();
                 else if(!contrasena.getText().equals(contrasena2.getText()))
                     toastContr.show();
+
             }
         });
 
